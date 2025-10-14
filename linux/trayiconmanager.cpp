@@ -37,7 +37,7 @@ void TrayIconManager::showNotification(const QString &title, const QString &mess
 void TrayIconManager::TrayIconManager::updateBatteryStatus(const QString &status)
 {
     trayIcon->setToolTip("Battery Status: " + status);
-    updateIconFromBattery(status);
+    // updateIconFromBattery(status);
 }
 
 void TrayIconManager::updateNoiseControlState(NoiseControlMode mode)
